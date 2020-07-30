@@ -1,6 +1,6 @@
 .container{
     display: grid;
-    grid-template-rows: 100px 1fr 100px;
+    grid-template-rows: 100px 500px 100px;
     justify-content: center;
 }
 .header{
@@ -13,16 +13,19 @@
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: repeat(4, 100px);
     align-self: center;
-    margin-bottom: 10px;
+    margin-bottom: 32px;
+    
 }
 .footer{
     text-align: center;
 }
 .square{
     border-style: solid;
+    border-color: black;
+    border-width: thin;
     height: 100px;
     width: 100px;
 }
-.square:hover{
-    background-color: black;
+.filled{
+    background-color: lightgray;
 }
