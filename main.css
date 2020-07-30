@@ -13,8 +13,11 @@
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: repeat(4, 100px);
     align-self: center;
+    margin-bottom: 10px;
 }
-
+.footer{
+    text-align: center;
+}
 .square{
     border-style: solid;
     height: 100px;
