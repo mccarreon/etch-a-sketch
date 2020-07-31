@@ -17,7 +17,12 @@
     
 }
 .footer{
-    text-align: center;
+    display: grid;
+    justify-content: center;
+    gap: 5px;
+}
+#reset{
+    width: 100%;
 }
 .square{
     border-style: solid;
